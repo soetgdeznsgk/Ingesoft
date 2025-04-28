@@ -3,7 +3,7 @@
 
 char *filename = "";
 
-
+// objetivo: al ingresarle un número "n", imprimir todos los  atributos del registro n 
 
 int main(){
 
@@ -13,5 +13,10 @@ int main(){
     printf("Error!\n");
     return -1;
   }
+
+  
+
+  
+  fclose(archivo);
   return 1;
 }
